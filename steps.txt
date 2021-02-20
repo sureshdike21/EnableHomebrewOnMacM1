@@ -1,0 +1,30 @@
+Steps-
+1. Downlaod Iterm2 terminal
+   Link- https://iterm2.com/downloads.html
+   
+2. Make a duplicate of your Terminal for Rosetta
+Go to your applications folder and locate your favourite terminal, I use iTerm2, Right click on the terminal icon and choose Duplicate.
+
+3. This will create a copy of your Terminal in the Applications folder. Rename the newly created copy to be Terminal Rosetta 
+
+4. Right click on the newly created copy and choose Get Info,  Click the Open with Rosetta option to be marked checked.
+
+5. Now I have two iTerm2 applications, one that runs default settings and another that runs using Rosetta.
+
+6. Install HomeBrew using Rosetta Terminal
+   To Install HomeBrew open the Rosetta Terminal and run the following command
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   
+   Running this command will ask you for the password,  and then It will provide you with the 
+   information of what all it will install and which new directories it will create.
+   
+   Once you press Enter, it will begin the installation process and will also dump the logs of the process.
+   
+7. Once HomeBrew is installed,  you can start using it to installed your required packages into the mac
+
+8. To install a package, you can run the following command
+   $brew install packagename
+   
+   
+   
+   
